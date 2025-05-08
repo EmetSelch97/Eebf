@@ -1,0 +1,17 @@
+Package: Eebf
+Title: Exact Exploratory Bi-factor Analysis
+Version: 0.1.0
+Authors@R: 
+    c(person("Jiawei", "Qiao", , "20110180052@fudan.edu.cn", role = c("aut", "cre")),
+      person("Yunxiao", "Chen", , "y.chen186@lse.ac.uk", role = "ctb"),
+      person("Zhiliang", "Ying", , "zying@stat.columbia.edu", role = "ctb"))
+Description: This package provides functions for an exploratory bi-factor analysis
+    method that learns an exact bi-factor structure from data, including estimation
+    of the bi-factor model and selection of the number of group factors. It is 
+    designed for researchers and practitioners interested in bi-factor model, 
+    especially in psychological and educational measurement. 
+Imports: utils, stats, MASS, gtools
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
